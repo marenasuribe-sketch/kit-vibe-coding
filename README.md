@@ -29,7 +29,7 @@
 
 ## Recibe las actualizaciones por correo (gratis)
 
-Descarga el mini-kit en Gumroad para recibir por correo las nuevas versiones y novedades: **https://marena74.gumroad.com/l/mxpaz**
+Descarga el mini-kit en Gumroad para recibir por correo las nuevas versiones y novedades: **[marena74.gumroad.com/l/mxpaz](https://marena74.gumroad.com/l/mxpaz)**
 
 ## El kit completo: de la idea a la app publicada
 

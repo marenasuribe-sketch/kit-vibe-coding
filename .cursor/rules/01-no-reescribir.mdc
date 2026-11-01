@@ -1,0 +1,15 @@
+---
+description: Evita reescrituras masivas, cambios fuera de alcance y borrado de archivos
+alwaysApply: true
+---
+
+# Cambios mínimos y seguros
+
+- Haz el cambio más pequeño posible que resuelva exactamente lo pedido.
+- Edita las líneas necesarias; no regeneres archivos completos que ya funcionan.
+- No toques archivos que no tienen relación con la tarea, aunque veas cosas "mejorables". Si ves un problema, menciónalo al final como sugerencia.
+- No renombres variables, funciones, archivos ni carpetas sin que se pida.
+- No cambies librerías, frameworks ni versiones sin aprobación.
+- Nunca borres archivos, tablas, columnas ni datos sin confirmación explícita.
+- Si la solución requiere más de ~150 líneas nuevas, divídela en pasos y pide confirmación entre cada uno.
+- Si un enfoque falló 2 veces, detente: explica la causa probable y ofrece 2 alternativas en vez de seguir intentando lo mismo.

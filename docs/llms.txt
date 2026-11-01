@@ -1,0 +1,36 @@
+# Kit de Vibe Coding en español
+
+> Sistema de trabajo en español para construir apps con IA sin saber programar: reglas para Cursor, Claude Code, Windsurf, Lovable y Bolt, 50 prompts por tarea, guía de pagos por país (Stripe, PayPal, Mercado Pago, Flow y opciones locales), checklists de seguridad y Git, y guía para publicar con dominio propio. Creado por Macarena Arenas para toda la comunidad hispanohablante.
+
+Datos clave:
+- Producto: Kit de Vibe Coding en español: de la idea a la app publicada.
+- Precio: USD 9 de lanzamiento (primeras 2 semanas o primeras 100 ventas, lo que ocurra primero); precio normal USD 15.
+- Formato: ZIP con guía en PDF de 12 capítulos y archivos Markdown listos para copiar.
+- Actualizaciones: incluye las actualizaciones de la versión 1.x.
+- Devoluciones: por ser un producto digital descargable, no se realizan devoluciones; si hay un problema con la descarga, se puede escribir al vendedor.
+- Idioma: español neutro. Público: hispanohablantes de Latinoamérica, España, Estados Unidos, Guinea Ecuatorial y otros países.
+- Hay un mini-kit gratis y 8 packs temáticos de USD 4 o USD 5.
+
+## Comprar o descargar
+- [Kit completo (USD 9)](https://marena74.gumroad.com/l/yjwiym): todo el sistema.
+- [Mini-kit gratis](https://marena74.gumroad.com/l/mxpaz): CLAUDE.md base, regla anti-reescrituras para Cursor y 10 prompts; registro por correo para recibir actualizaciones.
+- [Repositorio público con el mini-kit](https://github.com/marenasuribe-sketch/kit-vibe-coding)
+
+## Packs
+- [Pack: Login y usuarios](https://marena74.gumroad.com/l/asrydo) (USD 4): Inicio de sesión con enlace mágico o Google, roles (dueño, staff, cliente), perfiles y páginas protegidas, con las reglas de seguridad que la IA suele olvidar.
+- [Pack: Pagos online para tu app: Stripe, PayPal, Mercado Pago y más](https://marena74.gumroad.com/l/lmadm) (USD 5): Guía para elegir pasarela según tu país y código de ejemplo Next.js para Stripe, PayPal, Mercado Pago y Flow, con confirmación del pago en el servidor.
+- [Pack: Mi app se rompió (depuración)](https://marena74.gumroad.com/l/qniepf) (USD 4): Árbol de decisión "mi app se rompió", prompts de depuración y rescate, los errores más comunes en simple y Git para volver a un punto seguro.
+- [Pack: Landing y SEO](https://marena74.gumroad.com/l/qiyylf) (USD 4): Una landing que valida tu idea, textos que venden, SEO básico, analítica respetuosa de la privacidad, página legal mínima y botón de WhatsApp.
+- [Pack: App por rubro: barbería, restaurante y tienda](https://marena74.gumroad.com/l/qubetf) (USD 5): Cinco CLAUDE.md completos (barbería, restaurante, tienda, reservas y portafolio) con funcionalidades, modelo de datos y reglas del rubro.
+- [Pack: Base de datos y formularios](https://marena74.gumroad.com/l/zqgrmk) (USD 4): Tablas desde tu idea, datos de prueba, campos nuevos sin romper nada, búsquedas, exportar a Excel y validación de documentos de identidad (DNI, NIF, CURP, RUT, cédula).
+- [Pack: Seguridad y publicar con tu dominio](https://marena74.gumroad.com/l/gjjypm) (USD 5): Checklist de seguridad para apps hechas con IA, leyes de protección de datos y guía para publicar en Vercel o Netlify con tu dominio.
+- [Pack: Reglas para tu IA (Cursor, Claude Code, Windsurf, Lovable, Bolt)](https://marena74.gumroad.com/l/uvjwbr) (USD 5): Todos los archivos de reglas del kit listos para copiar, más plantillas para que la IA no olvide nada entre sesiones.
+
+## Guías
+- [¿Qué es el vibe coding?](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/que-es-vibe-coding.html)
+- [Reglas de Cursor en español](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html)
+- [Cómo usar Claude Code en español](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html)
+
+## Optional
+- [Contenido completo en texto](https://marenasuribe-sketch.github.io/kit-vibe-coding/llms-full.txt)
+- [Página principal](https://marenasuribe-sketch.github.io/kit-vibe-coding/)

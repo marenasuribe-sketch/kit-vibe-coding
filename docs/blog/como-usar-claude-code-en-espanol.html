@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo usar Claude Code en español (sin saber programar)</title>
+<meta name="description" content="Guía en español para usar Claude Code: qué es, cómo hacer que responda en español, cómo escribir tu CLAUDE.md y los prompts para trabajar sin romper tu proyecto.">
+<link rel="canonical" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Macarena Arenas">
+<meta name="theme-color" content="#0F766E">
+<link rel="icon" href="/kit-vibe-coding/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/llms.txt">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Kit de Vibe Coding en español">
+<meta property="og:title" content="Cómo usar Claude Code en español (sin saber programar)">
+<meta property="og:description" content="Guía en español para usar Claude Code: qué es, cómo hacer que responda en español, cómo escribir tu CLAUDE.md y los prompts para trabajar sin romper tu proyecto.">
+<meta property="og:url" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html">
+<meta property="og:image" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta property="og:image:alt" content="Portada del Kit de Vibe Coding en español: de la idea a la app publicada">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cómo usar Claude Code en español (sin saber programar)">
+<meta name="twitter:description" content="Guía en español para usar Claude Code: qué es, cómo hacer que responda en español, cómo escribir tu CLAUDE.md y los prompts para trabajar sin romper tu proyecto.">
+<meta name="twitter:image" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg">
+<link rel="stylesheet" href="/kit-vibe-coding/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Cómo usar Claude Code en español (sin saber programar)", "description": "Guía en español para usar Claude Code: qué es, cómo hacer que responda en español, cómo escribir tu CLAUDE.md y los prompts para trabajar sin romper tu proyecto.", "image": "https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg", "inLanguage": "es", "datePublished": "2026-10-31", "dateModified": "2026-10-31", "author": {"@type": "Person", "name": "Macarena Arenas"}, "publisher": {"@id": "https://marenasuribe-sketch.github.io/kit-vibe-coding/#org"}, "mainEntityOfPage": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Claude Code funciona en español?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes escribirle en español y configurar el ajuste language o indicarlo en tu CLAUDE.md para que siempre responda en español."}}, {"@type": "Question", "name": "¿Qué es el archivo CLAUDE.md?", "acceptedAnswer": {"@type": "Answer", "text": "Es un archivo de instrucciones y memoria del proyecto que Claude Code lee al iniciar cada sesión. Se puede generar con /init."}}, {"@type": "Question", "name": "¿Necesito saber programar para usar Claude Code?", "acceptedAnswer": {"@type": "Answer", "text": "No, pero conviene darle reglas claras, pedir una tarea a la vez, probar cada cambio y guardar puntos seguros con Git."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/"}, {"@type": "ListItem", "position": 3, "name": "Cómo usar Claude Code en español (sin saber programar)", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html"}]}</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="wrap nav">
+<a class="brand" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/">Vibe Coding <span>ES</span></a>
+<nav aria-label="Principal"><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/#incluye">Qué incluye</a><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/#packs">Packs</a><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a><a class="btn btn-sm" href="https://marena74.gumroad.com/l/yjwiym">Comprar USD 9</a></nav>
+</div></header>
+<main id="contenido">
+<article class="wrap section narrow prose">
+<nav class="crumbs" aria-label="Migas de pan"><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/">Inicio</a> › <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a></nav>
+<h1>Cómo usar Claude Code en español (sin saber programar)</h1>
+<p class="meta">Por Macarena Arenas · <time datetime="2026-10-31">31 de octubre de 2026</time></p>
+<p class="lead"><strong>Claude Code</strong> es el agente de programación de Anthropic: lee tu proyecto, escribe y edita código y ejecuta comandos por ti. Puedes usarlo en español de principio a fin, aunque no sepas programar, si le das buenas reglas.</p>
+<h2>1. Instalación</h2>
+<p>Sigue el instalador oficial en la documentación de Claude Code (<code>code.claude.com/docs</code>). Puedes usarlo desde la terminal o integrado en tu editor. Necesitas una cuenta de Claude con un plan que incluya Claude Code o una clave de API.</p>
+<h2>2. Haz que responda en español</h2>
+<p>Tienes dos caminos, y conviene usar ambos:</p>
+<ul>
+<li><strong>Configuración de idioma:</strong> Claude Code tiene un ajuste <code>language</code> en su archivo de configuración para responder por defecto en el idioma que indiques (por ejemplo, <code>"spanish"</code>).</li>
+<li><strong>Tu CLAUDE.md:</strong> escribe "Responde siempre en español, en simple y sin jerga" al inicio del archivo.</li>
+</ul>
+<h2>3. Crea tu CLAUDE.md</h2>
+<p><code>CLAUDE.md</code> es la memoria de tu proyecto: Claude Code lo lee al empezar cada sesión. Va en la raíz del proyecto (o en <code>.claude/CLAUDE.md</code>). Puedes generar uno inicial con el comando <code>/init</code>, que analiza tu proyecto; si ya existe, propone mejoras en vez de sobrescribirlo.</p>
+<p>Un buen CLAUDE.md para quien no programa incluye:</p>
+<ul>
+<li><strong>Sobre el proyecto:</strong> qué es la app, para quién, país y moneda principal, tecnología.</li>
+<li><strong>Cómo trabajar conmigo:</strong> explicar en simple, una tarea a la vez, decir cómo probar cada cambio.</li>
+<li><strong>Reglas de cambios:</strong> cambios mínimos, pedir permiso antes de tocar muchos archivos, nunca borrar sin preguntar.</li>
+<li><strong>Seguridad:</strong> claves secretas solo en el servidor y en variables de entorno.</li>
+<li><strong>Memoria entre sesiones:</strong> al terminar, actualizar un archivo con lo hecho y lo pendiente.</li>
+</ul>
+<h2>4. Trabaja con prompts cortos y claros</h2>
+<ol>
+<li><strong>Plan antes de código:</strong> "Esta es mi idea: [...]. Antes de escribir código, propón un plan de 5 a 8 tareas y espera mi aprobación."</li>
+<li><strong>Una tarea a la vez:</strong> "Ejecuta solo la tarea 2. Dime qué cambiaste y cómo lo pruebo."</li>
+<li><strong>Punto seguro:</strong> "Haz commit de todo con un mensaje que describa lo que funciona ahora."</li>
+<li><strong>Cuando algo se rompe:</strong> "Tengo este error: [pega el error]. Explícame la causa en simple y propón el arreglo más pequeño."</li>
+</ol>
+<h2>5. Revisa antes de publicar</h2>
+<p>Antes de poner tu app en internet, pídele una revisión: claves expuestas, páginas sin protección, validaciones que solo están en el navegador y textos que quedaron en inglés. Y nunca confíes en la página de "pago exitoso" para marcar un pago: la confirmación debe hacerse en el servidor.</p>
+<h2>Plantillas listas</h2>
+<p>El <a href="https://github.com/marenasuribe-sketch/kit-vibe-coding">mini-kit gratis</a> trae un <code>CLAUDE.md</code> en español listo para completar y 10 prompts esenciales. El <a href="https://marena74.gumroad.com/l/yjwiym">kit completo</a> suma presets por tecnología, 5 CLAUDE.md por rubro (tienda, reservas, barbería, restaurante y portafolio) y 50 prompts por tarea.</p>
+
+<h2>Preguntas frecuentes</h2>
+<h3>¿Claude Code funciona en español?</h3><p>Sí. Puedes escribirle en español y configurar el ajuste language o indicarlo en tu CLAUDE.md para que siempre responda en español.</p><h3>¿Qué es el archivo CLAUDE.md?</h3><p>Es un archivo de instrucciones y memoria del proyecto que Claude Code lee al iniciar cada sesión. Se puede generar con /init.</p><h3>¿Necesito saber programar para usar Claude Code?</h3><p>No, pero conviene darle reglas claras, pedir una tarea a la vez, probar cada cambio y guardar puntos seguros con Git.</p>
+<div class="card accent cta-box"><h2>Llévalo a la práctica</h2><p>Descarga gratis el mini-kit con el CLAUDE.md base, la regla anti-reescrituras para Cursor y 10 prompts, o consigue el kit completo con 50 prompts, guía de pagos por país y checklists.</p><div class="ctas"><a class="btn" href="https://marena74.gumroad.com/l/mxpaz">Mini-kit gratis</a><a class="btn btn-ghost" href="https://marena74.gumroad.com/l/yjwiym">Kit completo · USD 9</a></div></div>
+</article>
+</main>
+<footer class="foot"><div class="wrap">
+<p><strong>Kit de Vibe Coding en español</strong> · creado por Macarena Arenas para toda la comunidad hispanohablante.</p>
+<p><a href="https://marena74.gumroad.com/l/yjwiym">Kit completo</a> · <a href="https://marena74.gumroad.com/l/mxpaz">Mini-kit gratis</a> · <a href="https://github.com/marenasuribe-sketch/kit-vibe-coding">GitHub</a> · <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a> · <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/llms.txt">llms.txt</a></p>
+<p class="small">No afiliado a Cursor (Anysphere), Anthropic, Windsurf, Lovable, StackBlitz (Bolt), Stripe, PayPal, Mercado Pago ni Flow. Las marcas pertenecen a sus dueños.</p>
+</div></footer>
+</body>
+</html>

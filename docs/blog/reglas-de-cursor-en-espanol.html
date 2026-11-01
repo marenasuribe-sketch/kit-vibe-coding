@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reglas de Cursor en español: cómo escribirlas y ejemplos listos</title>
+<meta name="description" content="Cómo crear reglas de proyecto en Cursor (.cursor/rules/*.mdc), qué significan description, globs y alwaysApply, y ejemplos en español para que la IA no reescriba tu proyecto.">
+<link rel="canonical" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Macarena Arenas">
+<meta name="theme-color" content="#0F766E">
+<link rel="icon" href="/kit-vibe-coding/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/llms.txt">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Kit de Vibe Coding en español">
+<meta property="og:title" content="Reglas de Cursor en español: cómo escribirlas y ejemplos listos">
+<meta property="og:description" content="Cómo crear reglas de proyecto en Cursor (.cursor/rules/*.mdc), qué significan description, globs y alwaysApply, y ejemplos en español para que la IA no reescriba tu proyecto.">
+<meta property="og:url" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html">
+<meta property="og:image" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta property="og:image:alt" content="Portada del Kit de Vibe Coding en español: de la idea a la app publicada">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reglas de Cursor en español: cómo escribirlas y ejemplos listos">
+<meta name="twitter:description" content="Cómo crear reglas de proyecto en Cursor (.cursor/rules/*.mdc), qué significan description, globs y alwaysApply, y ejemplos en español para que la IA no reescriba tu proyecto.">
+<meta name="twitter:image" content="https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg">
+<link rel="stylesheet" href="/kit-vibe-coding/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Reglas de Cursor en español: cómo escribirlas y ejemplos listos", "description": "Cómo crear reglas de proyecto en Cursor (.cursor/rules/*.mdc), qué significan description, globs y alwaysApply, y ejemplos en español para que la IA no reescriba tu proyecto.", "image": "https://marenasuribe-sketch.github.io/kit-vibe-coding/img/portada.jpg", "inLanguage": "es", "datePublished": "2026-10-31", "dateModified": "2026-10-31", "author": {"@type": "Person", "name": "Macarena Arenas"}, "publisher": {"@id": "https://marenasuribe-sketch.github.io/kit-vibe-coding/#org"}, "mainEntityOfPage": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Dónde se guardan las reglas de Cursor?", "acceptedAnswer": {"@type": "Answer", "text": "En la carpeta .cursor/rules/ de tu proyecto, como archivos .mdc. También puedes usar AGENTS.md en la raíz o las User Rules en la configuración."}}, {"@type": "Question", "name": "¿Sigue funcionando el archivo .cursorrules?", "acceptedAnswer": {"@type": "Answer", "text": "Es el formato antiguo. Hoy se recomienda usar archivos .mdc dentro de .cursor/rules/ o AGENTS.md."}}, {"@type": "Question", "name": "¿Cómo hago que Cursor me responda en español?", "acceptedAnswer": {"@type": "Answer", "text": "Agrega una regla con alwaysApply: true que diga \"Responde siempre en español\" o ponlo en tus User Rules."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/"}, {"@type": "ListItem", "position": 3, "name": "Reglas de Cursor en español: cómo escribirlas y ejemplos listos", "item": "https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html"}]}</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="wrap nav">
+<a class="brand" href="https://marenasuribe-sketch.github.io/kit-vibe-coding/">Vibe Coding <span>ES</span></a>
+<nav aria-label="Principal"><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/#incluye">Qué incluye</a><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/#packs">Packs</a><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a><a class="btn btn-sm" href="https://marena74.gumroad.com/l/yjwiym">Comprar USD 9</a></nav>
+</div></header>
+<main id="contenido">
+<article class="wrap section narrow prose">
+<nav class="crumbs" aria-label="Migas de pan"><a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/">Inicio</a> › <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a></nav>
+<h1>Reglas de Cursor en español: cómo escribirlas y ejemplos listos</h1>
+<p class="meta">Por Macarena Arenas · <time datetime="2026-10-31">31 de octubre de 2026</time></p>
+<p class="lead">Las <strong>reglas de Cursor</strong> son instrucciones permanentes que el agente lee antes de trabajar en tu proyecto. Bien escritas, evitan que la IA reescriba lo que ya funciona, invente cambios o te responda en inglés.</p>
+<h2>Dónde van las reglas</h2>
+<p>Las reglas de proyecto viven en la carpeta <code>.cursor/rules/</code> de tu proyecto, como archivos con extensión <code>.mdc</code>. Un archivo <code>.md</code> normal en esa carpeta se ignora. Si prefieres Markdown simple, Cursor también lee un archivo <code>AGENTS.md</code> en la raíz.</p>
+<pre><code>tu-proyecto/
+  .cursor/
+    rules/
+      01-no-reescribir.mdc
+      02-seguridad.mdc
+  AGENTS.md   (opcional)</code></pre>
+<p>Además existen las <em>User Rules</em> (en la configuración de Cursor, para todos tus proyectos) y las reglas de equipo.</p>
+<h2>Anatomía de una regla .mdc</h2>
+<p>Cada archivo tiene un encabezado (frontmatter) con tres campos y luego las instrucciones en Markdown:</p>
+<ul>
+<li><code>description</code>: de qué trata la regla. El agente la usa para decidir si la necesita.</li>
+<li><code>globs</code>: patrones de archivos (por ejemplo <code>**/*.tsx</code>). Si trabajas en un archivo que coincide, la regla se agrega sola.</li>
+<li><code>alwaysApply</code>: si es <code>true</code>, la regla se incluye en todas las conversaciones.</li>
+</ul>
+<p>Si no pones ni descripción ni globs y <code>alwaysApply</code> es <code>false</code>, la regla solo se usa cuando la mencionas con <code>@nombre-de-la-regla</code>.</p>
+<h2>Ejemplo: regla para que la IA no reescriba tu proyecto</h2>
+<pre><code>---
+description: Cambios mínimos y sin reescrituras
+alwaysApply: true
+---
+
+# Cambios mínimos
+- Responde siempre en español, en simple.
+- Haz solo el cambio pedido. No reescribas archivos completos
+  ni cambies nombres, estilos o estructura que no te pedí.
+- Antes de un cambio que toque más de 3 archivos, muéstrame
+  el plan y espera mi aprobación.
+- Nunca borres archivos sin preguntarme.
+- Al terminar, dime qué cambiaste y cómo lo pruebo.</code></pre>
+<h2>Consejos para escribir buenas reglas</h2>
+<ol>
+<li><strong>Una regla, un tema:</strong> separa "cambios mínimos", "seguridad", "pagos" e "interfaz en español" en archivos distintos.</li>
+<li><strong>Frases concretas y verificables:</strong> "nunca uses NEXT_PUBLIC_ para claves secretas" funciona mejor que "sé seguro".</li>
+<li><strong>Usa globs para reglas técnicas:</strong> la regla de pagos solo cuando trabajas en archivos de pagos.</li>
+<li><strong>Cortas:</strong> si una regla crece demasiado, divídela.</li>
+<li><strong>Versiónalas con Git</strong> para que todo tu equipo use las mismas.</li>
+</ol>
+<h2>Reglas listas en español</h2>
+<p>El <a href="https://github.com/marenasuribe-sketch/kit-vibe-coding">mini-kit gratis en GitHub</a> trae la regla <code>01-no-reescribir.mdc</code> lista para copiar. El <a href="https://marena74.gumroad.com/l/yjwiym">kit completo</a> incluye reglas de seguridad, pagos (Stripe, PayPal, Mercado Pago, Flow), interfaz en español y presets por tecnología, y el <a href="https://marena74.gumroad.com/l/uvjwbr">pack "Reglas para tu IA"</a> las reúne todas.</p>
+
+<h2>Preguntas frecuentes</h2>
+<h3>¿Dónde se guardan las reglas de Cursor?</h3><p>En la carpeta .cursor/rules/ de tu proyecto, como archivos .mdc. También puedes usar AGENTS.md en la raíz o las User Rules en la configuración.</p><h3>¿Sigue funcionando el archivo .cursorrules?</h3><p>Es el formato antiguo. Hoy se recomienda usar archivos .mdc dentro de .cursor/rules/ o AGENTS.md.</p><h3>¿Cómo hago que Cursor me responda en español?</h3><p>Agrega una regla con alwaysApply: true que diga &quot;Responde siempre en español&quot; o ponlo en tus User Rules.</p>
+<div class="card accent cta-box"><h2>Llévalo a la práctica</h2><p>Descarga gratis el mini-kit con el CLAUDE.md base, la regla anti-reescrituras para Cursor y 10 prompts, o consigue el kit completo con 50 prompts, guía de pagos por país y checklists.</p><div class="ctas"><a class="btn" href="https://marena74.gumroad.com/l/mxpaz">Mini-kit gratis</a><a class="btn btn-ghost" href="https://marena74.gumroad.com/l/yjwiym">Kit completo · USD 9</a></div></div>
+</article>
+</main>
+<footer class="foot"><div class="wrap">
+<p><strong>Kit de Vibe Coding en español</strong> · creado por Macarena Arenas para toda la comunidad hispanohablante.</p>
+<p><a href="https://marena74.gumroad.com/l/yjwiym">Kit completo</a> · <a href="https://marena74.gumroad.com/l/mxpaz">Mini-kit gratis</a> · <a href="https://github.com/marenasuribe-sketch/kit-vibe-coding">GitHub</a> · <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/">Blog</a> · <a href="https://marenasuribe-sketch.github.io/kit-vibe-coding/llms.txt">llms.txt</a></p>
+<p class="small">No afiliado a Cursor (Anysphere), Anthropic, Windsurf, Lovable, StackBlitz (Bolt), Stripe, PayPal, Mercado Pago ni Flow. Las marcas pertenecen a sus dueños.</p>
+</div></footer>
+</body>
+</html>

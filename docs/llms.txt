@@ -29,6 +29,7 @@ Datos clave:
 ## Guías
 - [¿Qué es el vibe coding?](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/que-es-vibe-coding.html)
 - [Reglas de Cursor en español](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/reglas-de-cursor-en-espanol.html)
+- [Cómo cobrar en tu app hecha con IA (aunque Stripe no esté en tu país)](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-cobrar-en-tu-app-sin-stripe.html)
 - [Cómo usar Claude Code en español](https://marenasuribe-sketch.github.io/kit-vibe-coding/blog/como-usar-claude-code-en-espanol.html)
 
 ## Optional
